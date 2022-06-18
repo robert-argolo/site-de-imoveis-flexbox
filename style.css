@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Ropa Sans", sans-serif;
+}
+
+.container {
+  width: 697px;
+  height: 1264px;
+  background: #ffffff;
+  margin: auto;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+  width: 697px;
+  height: 49px;
+  background: #ffffff;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo-container__title {
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  color: #777777;
+  padding-left: 44px;
+}
+
+.header__logo-container__subtitle {
+  width: 38px;
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  color: #aaaaaa;
+  padding-left: 1px;
+}
+
+.header__icon-menu {
+  width: 20px;
+  height: 20px;
+  background-image: url(./assets/images/icon-menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 31px;
+  cursor: pointer;
+}
+
+.main__section-carousel {
+  width: 608px;
+  height: 259px;
+  background-image: url(./assets/images/img-carousel.svg);
+  background-repeat: no-repeat;
+  margin: auto;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-bottom: 37px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main__section-carousel__icon {
+  width: 39px;
+  height: 39px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+.main__section-carousel__icon-left {
+  background-image: url(./assets/images/icon-left-carousel.svg);
+  margin-left: 12px;
+}
+
+.main__section-carousel__icon-right {
+  background-image: url(./assets/images/icon-right-carousel.svg);
+  margin-right: 12px;
+}
+
+.container__main__section-iten {
+  width: 608px;
+  height: 242px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.main__section-iten {
+  width: 256px;
+  background: #eeeeee;
+}
+
+.main__section-iten__image {
+  width: 256px;
+  height: 144px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.main__section-iten__image-new {
+  background-image: url(./assets/images/img-new.svg);
+}
+.main__section-iten__image-sale {
+  background-image: url(./assets/images/img-sale.svg);
+}
+.main__section-iten__container__price-status {
+  height: 27px;
+  margin-top: 9px;
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__section-iten__container__price-status__price {
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 27px;
+  color: #888888;
+  padding-left: 12px;
+}
+
+.main__section-iten__container__price-status__status {
+  width: 56px;
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10.5px;
+  color: #ffffff;
+  margin-right: 13px;
+}
+.status__backgroud--color-green {
+  background-color: #51d275;
+}
+.status__backgroud--color-yellow {
+  background-color: #dc9730;
+}
+
+.main__section-iten__description {
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 11px;
+  text-align: justify;
+  color: #555555;
+  padding: 0px 13px;
+  padding-bottom: 12px;
+}
+
+.section__style {
+  margin-top: 45px;
+}
+
+.section__style__title {
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 27px;
+  text-align: center;
+  color: #888888;
+  padding-bottom: 13px;
+}
+
+.section__style__image {
+  width: 608px;
+  height: 80px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.modern-img--margin {
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.section__style__image-industrial {
+  background-image: url(./assets/images/img-industrial.svg);
+}
+.section__style__image-modern {
+  background-image: url(./assets/images/img-modern.svg);
+}
+.section__style__image-classic {
+  background-image: url(./assets/images/img-classic.svg);
+}
+
+.section__style__image-title {
+  width: 100%;
+  height: 100%;
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  background-color: rgba(196, 196, 196, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 57px;
+  width: 697px;
+  height: 243px;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__image-map {
+  width: 252px;
+  height: 100%;
+  border-radius: 19px;
+  background-image: url(./assets/images/img-map.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 48px;
+  cursor: pointer;
+}
+
+.footer__container{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__container-text {
+  padding: 49px 71px 13px 0px;
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: justify;
+  color: #ffffff;
+}
+
+.footer__container-social{
+display: flex;
+flex-direction: column;
+
+}
+
+.footer__container-social__title {
+  font-family: "Ropa Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  color: #ffffff;
+  padding-bottom: 6.42px;
+}
+
+.footer__container-social__all-icons{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__container-social__icon {
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  margin-right: 17px;
+  cursor: pointer;
+}
+.icon--instagram {
+  background-image: url(./assets/images/icon-instagram.svg);
+}
+.icon--facebook {
+  background-image: url(./assets/images/icon-facebook.svg);
+}
+.icon--whatsapp {
+  background-image: url(./assets/images/icon-whatsapp.svg);
+}
