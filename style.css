@@ -3,281 +3,327 @@
 * {
   margin: 0px;
   padding: 0px;
+
   box-sizing: border-box;
+
   font-family: "Ropa Sans", sans-serif;
 }
 
 .container {
   width: 697px;
   height: 1264px;
-  background: #ffffff;
+
   margin: auto;
+
+  background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .header {
   width: 697px;
   height: 49px;
+
+  margin-bottom: 20px;
+
   background: #ffffff;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
-  margin-bottom: 20px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.header__logo-container {
+.header__logo {
   height: 100%;
+
   display: flex;
   align-items: center;
 }
 
-.header__logo-container__title {
-  font-family: "Ropa Sans";
-  font-style: normal;
+.logo__title {
   font-weight: 400;
   font-size: 30px;
-  color: #777777;
+
   padding-left: 44px;
+
+  color: #777777;
 }
 
-.header__logo-container__subtitle {
+.logo__subtitle {
   width: 38px;
-  font-family: "Ropa Sans";
-  font-style: normal;
+
+  padding-left: 1px;
+
   font-weight: 400;
   font-size: 10px;
+
   color: #aaaaaa;
-  padding-left: 1px;
 }
 
 .header__icon-menu {
   width: 20px;
   height: 20px;
+
+  margin-right: 31px;
+
   background-image: url(./assets/images/icon-menu.svg);
   background-repeat: no-repeat;
   background-position: center;
-  margin-right: 31px;
+
   cursor: pointer;
 }
 
-.main__section-carousel {
+.main__carousel {
   width: 608px;
   height: 259px;
+
+  margin: auto;
+  margin-bottom: 37px;
+
   background-image: url(./assets/images/img-carousel.svg);
   background-repeat: no-repeat;
-  margin: auto;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  margin-bottom: 37px;
-  display:flex;
+
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.main__section-carousel__icon {
+.carousel__icon {
   width: 39px;
   height: 39px;
+
   background-repeat: no-repeat;
   background-position: center;
+
   cursor: pointer;
 }
-.main__section-carousel__icon-left {
+.carousel__icon-left {
   background-image: url(./assets/images/icon-left-carousel.svg);
+
   margin-left: 12px;
 }
 
-.main__section-carousel__icon-right {
+.carousel__icon-right {
   background-image: url(./assets/images/icon-right-carousel.svg);
+
   margin-right: 12px;
 }
 
-.container__main__section-iten {
+.main__iten-group {
   width: 608px;
   height: 242px;
+
   margin: auto;
+
   display: flex;
   justify-content: space-between;
 }
-.main__section-iten {
+.main__iten {
   width: 256px;
-  background: #eeeeee;
+
+  background-color: #eeeeee;
 }
 
-.main__section-iten__image {
+.main__image {
   width: 256px;
   height: 144px;
+
   background-repeat: no-repeat;
+
   cursor: pointer;
 }
-.main__section-iten__image-new {
+.image--new {
   background-image: url(./assets/images/img-new.svg);
 }
-.main__section-iten__image-sale {
+.image--sale {
   background-image: url(./assets/images/img-sale.svg);
 }
-.main__section-iten__container__price-status {
+.main__price-status {
   height: 27px;
+
   margin-top: 9px;
   margin-bottom: 6px;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.main__section-iten__container__price-status__price {
-  font-family: "Ropa Sans";
-  font-style: normal;
+.main__price {
+  padding-left: 12px;
+
   font-weight: 400;
   font-size: 25px;
   line-height: 27px;
+
   color: #888888;
-  padding-left: 12px;
 }
 
-.main__section-iten__container__price-status__status {
+.main__status {
   width: 56px;
-  font-family: "Ropa Sans";
-  font-style: normal;
+
+  margin-right: 13px;
+
+  border-radius: 10.5px;
+
   font-weight: 400;
   font-size: 20px;
   text-align: center;
-  border-radius: 10.5px;
+
   color: #ffffff;
-  margin-right: 13px;
 }
-.status__backgroud--color-green {
+.status--backgroud-green {
   background-color: #51d275;
 }
-.status__backgroud--color-yellow {
+.status--backgroud-yellow {
   background-color: #dc9730;
 }
 
-.main__section-iten__description {
-  font-family: "Ropa Sans";
-  font-style: normal;
+.main__description {
+  padding: 0px 13px 12px 13px;
+
   font-weight: 400;
   font-size: 10px;
   line-height: 11px;
   text-align: justify;
+
   color: #555555;
-  padding: 0px 13px;
-  padding-bottom: 12px;
 }
 
 .section__style {
   margin-top: 45px;
 }
 
-.section__style__title {
-  font-family: "Ropa Sans";
-  font-style: normal;
+.style__title {
+  padding-bottom: 13px;
+
   font-weight: 400;
   font-size: 25px;
   line-height: 27px;
   text-align: center;
+
   color: #888888;
-  padding-bottom: 13px;
 }
 
-.section__style__image {
+.style__image {
   width: 608px;
   height: 80px;
+
   margin: auto;
+
   background-repeat: no-repeat;
   background-position: center;
+
   cursor: pointer;
 }
 
-.modern-img--margin {
+.image--industrial {
+  background-image: url(./assets/images/img-industrial.svg);
+}
+.image--modern {
+  background-image: url(./assets/images/img-modern.svg);
+}
+.modern--margin {
   margin-top: 13px;
   margin-bottom: 13px;
 }
-
-.section__style__image-industrial {
-  background-image: url(./assets/images/img-industrial.svg);
-}
-.section__style__image-modern {
-  background-image: url(./assets/images/img-modern.svg);
-}
-.section__style__image-classic {
+.image--classic {
   background-image: url(./assets/images/img-classic.svg);
 }
 
-.section__style__image-title {
+.style__image-title {
   width: 100%;
   height: 100%;
-  font-family: "Ropa Sans";
-  font-style: normal;
+
   font-weight: 400;
   font-size: 25px;
-  color: #ffffff;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+
+  color: #ffffff;
   background-color: rgba(196, 196, 196, 0.5);
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .footer {
-  margin-top: 57px;
   width: 697px;
   height: 243px;
+
+  margin-top: 57px;
+  padding-right: 71px;
+
   background-color: #333333;
+
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.footer__image-map {
+.footer__map {
   width: 252px;
-  height: 100%;
+  height: 165px;
+
+  margin-left: 48px;
+
   border-radius: 19px;
+
   background-image: url(./assets/images/img-map.svg);
   background-repeat: no-repeat;
   background-position: center;
-  margin-left: 48px;
+
   cursor: pointer;
 }
 
-.footer__container{
+.footer__text-social-group {
   display: flex;
   flex-direction: column;
 }
 
-.footer__container-text {
-  padding: 49px 71px 13px 0px;
-  font-family: "Ropa Sans";
-  font-style: normal;
+.footer__text-group {
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
   text-align: justify;
+
   color: #ffffff;
+
+  padding-bottom: 15px;
+}
+.text__link {
+  all: unset;
+  
+  display: block;
 }
 
-.footer__container-social{
-display: flex;
-flex-direction: column;
-
+.footer__social {
+  display: flex;
+  flex-direction: column;
 }
 
-.footer__container-social__title {
-  font-family: "Ropa Sans";
-  font-style: normal;
+.social__title {
+  padding-bottom: 6.42px;
+
   font-weight: 400;
   font-size: 12px;
   line-height: 13px;
+
   color: #ffffff;
-  padding-bottom: 6.42px;
 }
 
-.footer__container-social__all-icons{
+.social__icons {
   display: flex;
   flex-direction: row;
 }
 
-.footer__container-social__icon {
+.social__icon {
   width: 20px;
   height: 20px;
-  background-repeat: no-repeat;
+
   margin-right: 17px;
+
+  background-repeat: no-repeat;
+
   cursor: pointer;
 }
 .icon--instagram {
