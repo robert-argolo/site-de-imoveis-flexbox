@@ -1,0 +1,82 @@
+/* For mobile phones: */
+@media only screen and (max-width: 412px) {
+  .container {
+    width: 100vw;
+  }
+
+  .header {
+    width: 100%;
+  }
+
+  .main {
+    width: 100%;
+  }
+
+  .main__carousel {
+    width: 100%;
+    background-position: center;
+  }
+
+  .main__iten-group {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main__iten {
+    width: 80%;
+    margin-bottom: 25px;
+  }
+  .main__image{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+  }
+
+  .section__style {
+    width: 100%;
+  }
+
+  .style__image {
+    width: 100%;
+  }
+
+  .footer {
+    width: 100%;
+    height: auto;
+
+    padding: 0px;
+    margin-top: 25px;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer__map {
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 15px;
+  }
+
+  .footer__text-group,
+  .text__link {
+    text-align: center;
+  }
+
+  .footer__social {
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    padding-bottom: 25px;
+  }
+  .social__icons {
+    margin: auto;
+  }
+  .icon--whatsapp {
+    margin: 0;
+  }
+}
